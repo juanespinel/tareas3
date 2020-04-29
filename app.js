@@ -65,5 +65,3 @@ switch(accion) {
         console.log('Las acciones disponibles son: listar, crear, filtrar, ');
         break;
 }
-
-console.log();
