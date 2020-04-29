@@ -39,6 +39,8 @@ switch(accion) {
         console.log('------------------');
         break;
     
+    //case 'borrar'
+
     case 'filtrar':
         let estado = process.argv[3];
 

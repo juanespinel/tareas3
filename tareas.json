@@ -66,5 +66,9 @@
  {
   "titulo": "clonar tareas3 en pc trabajo",
   "estado": "hacer si o si"
+ },
+ {
+  "titulo": "clonacion terminada",
+  "estado": "hecho"
  }
 ]
