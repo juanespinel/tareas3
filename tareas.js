@@ -10,6 +10,12 @@ let archivoTareas = {
     escribirJSON: function (tareas) {
         fs.writeFileSync(this.archivo, JSON.stringify(tareas, null, ' '));
     },
+   
+    /*
+    borrarJSON: function (tareas) {
+        fs.
+    }
+    */
 
     guardarTarea (tarea) {
         let tareas = this.leerJSON();
@@ -17,6 +23,13 @@ let archivoTareas = {
         this.escribirJSON(tareas);
     },
     
+    /*
+    eliminarTarea (tarea) {
+        let tareas = this.leerJSON();
+
+    }
+    */
+   
     leerPorEstado (estado) {
         let tareas = this.leerJSON();
         let tareasFiltradas = tareas.filter((tarea) => {

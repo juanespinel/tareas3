@@ -37,10 +37,20 @@ switch(accion) {
         console.log(tarea.titulo + ' -> ' + tarea.estado);
         console.log();
         console.log('------------------');
+
+        let titulon = process.argv[3];
+        let estadon = process.argv[4];
+
         break;
     
-    //case 'borrar'
-
+    /*
+    case 'eliminar'
+        console.log();
+        console.log('Tarea Eliminada');
+        console.log('------------------');
+        console.log();
+    */
+   
     case 'filtrar':
         let estado = process.argv[3];
 
